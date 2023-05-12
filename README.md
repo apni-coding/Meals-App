@@ -23,7 +23,7 @@
 # Contributors
     Vivek Kumar
 # Video Explanation
-    Link to video explanation
+    Link to video explanation:- https://youtu.be/dtNYzA1SiKw
 
 # Hosted Code
     The code is hosted on GitHub at [https://github.com/your-username/meal-app.](https://apni-coding.github.io/Meals-App/)
