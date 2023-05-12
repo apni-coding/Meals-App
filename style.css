@@ -1,0 +1,149 @@
+/* Set margin and padding to 0 for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background-color: lightgray */
+}
+
+/* Style for header */
+header{
+    display: flex;
+    margin: 20px;
+}
+
+/* Style for logo image */
+#logo{
+    height: 40px;
+}
+
+/* Style for header links */
+header a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Style for header links on hover */
+header a:hover{
+    text-decoration: underline;
+}
+
+/* Style for container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for input field */
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+}
+
+/* Style for button */
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Style for meal containers */
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* Set background color */
+    /* background-color: lightgray */
+}
+
+/* Style for meal images */
+.meal img {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* ?margin-left: 20px; */
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff5945;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: #ddd;
+}
+
+.description {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    word-spacing: 3px;
+    line-height: 35px;
+    text-align: justify;
+    color: blue;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+
